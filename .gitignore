@@ -1,0 +1,8 @@
+datasets/
+runs/
+__pycache__/
+.vscode/
+.venv/
+*.pt
+*.avi
+*.mp4
