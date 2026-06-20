@@ -7,8 +7,8 @@ def main():
     # 2. Bắt đầu huấn luyện (Fine-tuning)
     model.train(
         data="datasets/data.yaml", # Đường dẫn cực kỳ gọn sạch
-        epochs=10,
-        imgsz=640,
+        epochs=8,
+        imgsz=320,
         device="cpu"
     )
 

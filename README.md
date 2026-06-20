@@ -33,3 +33,7 @@ Lưu ý: Tại giao diện tải của Roboflow, hãy chọn tùy chọn tải v
 ## 5. Cấu hình tải
 Trường hợp máy tính cấu hình yếu: Điều chỉnh cấu hình epoch về 8 và kích thước hình ảnh (imgsz) về 320
 Trường hợp máy tính có GPU rời: Cấu hình tham số thiết bị (device) chuyển sang sử dụng GPU thay vì mặc định chạy bằng CPU
+
+## 6. Điều chỉnh đường dẫn (Do Thằng Cơ để cứng là train2)
+Sau khi chạy xong trainTrashAi.py, kiểm tra xem file best.pt nằm ở train nào trong đường dẫn runs/detect/
+Điều chỉnh MODEL_PATH trong detector.py thành đường dẫn tương ứng
